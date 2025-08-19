@@ -1,0 +1,87 @@
+# Sample Health & Fitness Questionnaire
+
+**Instructions**: Please fill out this questionnaire completely. Your responses will be used to create personalized health, training, and nutrition plans.
+
+## Personal Information
+
+**Name**: John Doe
+**Age**: 30
+**Gender**: Male
+**Height**: 6'0"
+**Weight**: 180 lbs
+**Email**: john.doe@email.com
+
+## Health Metrics
+
+**BMI**: 24.5
+**Body Fat**: 18%
+**Blood Pressure**: 120/80
+**Resting Heart Rate**: 65
+**Activity Level**: Moderate
+
+## Assessment Scales
+*Rate each item on a scale of 1-10 (1 = Very Poor, 10 = Excellent)*
+
+**Fitness Level**: 6
+**Energy Level**: 7
+**Strength**: 5
+**Endurance**: 4
+**Flexibility**: 3
+**Nutrition Knowledge**: 8
+**Motivation**: 9
+**Stress Management**: 5
+**Sleep Quality**: 6
+
+## Fitness Goals
+*Check all that apply*
+
+☑ Lose Weight
+☑ Gain Muscle
+☐ Improve Endurance
+☐ Increase Strength
+☐ General Fitness
+☐ Sport Specific Training
+☐ Rehabilitation
+
+## Available Equipment
+*Check all that you have access to*
+
+☑ Dumbbells
+☐ Barbells
+☑ Resistance Bands
+☐ Cardio Machines
+☑ Yoga Mat
+☐ Pull-up Bar
+
+## Workout Preferences
+
+**Preferred Workout Times**: Morning, Evening
+**Experience Level**: Intermediate
+**Days per week available**: 4-5 days
+
+## Dietary Information
+
+**Dietary Restrictions**: Vegetarian
+**Food Allergies**: Nuts
+**Current Diet Type**: Mediterranean-style
+
+## Free-Text Responses
+
+**Describe your health and fitness goals in detail:**
+I want to lose about 15 pounds while building lean muscle mass. I've been moderately active but want to be more consistent with both exercise and nutrition. My main challenge is finding time for meal preparation and staying motivated during busy work periods.
+
+**Medical Conditions or Concerns:**
+No major medical conditions. Occasional lower back stiffness from desk work.
+
+**Exercise History:**
+I played sports in college but have been mostly doing recreational activities like hiking and occasional gym visits for the past 5 years. I'm comfortable with basic exercises but would like more structured guidance.
+
+**Food Preferences and Dislikes:**
+I enjoy Mediterranean foods, lean proteins, and vegetables. I'm not a big fan of processed foods and prefer home-cooked meals when possible. I need help with portion control and meal timing.
+
+**Additional Notes:**
+I travel for work about once a month, so I need flexible plans that can adapt to different schedules and limited equipment situations. I'm very motivated to make lasting changes this time.
+
+---
+
+*This is a sample questionnaire for demonstration purposes. The application can process similar questionnaires in PDF format with various layouts and structures.*

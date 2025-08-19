@@ -1,0 +1,6 @@
+2025-08-19 10:38:32,323 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-19 10:38:32,323 - __main__ - INFO - Starting GUI application
+2025-08-19 10:38:32,395 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-19 10:38:32,395 - app_gui - INFO - Output directory: output
+2025-08-19 10:38:32,395 - app_gui - INFO - Model type: openrouter
+2025-08-19 10:38:48,168 - app_gui - INFO - Model selection changed to: local

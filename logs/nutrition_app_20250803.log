@@ -1,0 +1,234 @@
+2025-08-03 22:21:21,390 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 22:21:21,390 - __main__ - INFO - Starting GUI application
+2025-08-03 22:21:21,590 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 22:21:21,598 - app_gui - INFO - Output directory: output
+2025-08-03 22:21:21,598 - app_gui - INFO - Model type: openrouter
+2025-08-03 22:21:28,613 - app_gui - INFO - Model selection changed to: local
+2025-08-03 22:21:29,257 - app_gui - INFO - Model selection changed to: local
+2025-08-03 22:21:31,704 - app_gui - INFO - Model selection changed to: openrouter
+2025-08-03 22:27:32,520 - app_gui - INFO - Selected PDF file: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 22:27:36,846 - app_gui - INFO - Output directory set to: C:/Users/PMLS/Projects/Nutirtion_app/output
+2025-08-03 22:29:25,811 - app_gui - INFO - Testing AI connection...
+2025-08-03 22:29:27,752 - llm_engine - ERROR - OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:27,752 - llm_engine - ERROR - Error generating test: OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:27,752 - llm_engine - INFO - LLM connection test passed for openrouter
+2025-08-03 22:29:30,708 - report_generator - INFO - Created sample template: summary_template.docx
+2025-08-03 22:29:30,732 - report_generator - INFO - Created sample template: training_template.docx
+2025-08-03 22:29:30,764 - report_generator - INFO - Created sample template: nutrition_template.docx
+2025-08-03 22:29:30,772 - app_gui - INFO - Step 1: Parsing PDF questionnaire...
+2025-08-03 22:29:30,772 - pdf_parser - INFO - Starting PDF parsing for: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 22:29:30,845 - pdf_parser - INFO - PDF parsing completed successfully
+2025-08-03 22:29:30,845 - app_gui - INFO - Step 2: Creating health assessment chart...
+2025-08-03 22:29:30,845 - chart_builder - INFO - Creating radar chart: Health & Fitness Assessment
+2025-08-03 22:29:31,367 - chart_builder - INFO - Radar chart saved to: C:/Users/PMLS/Projects/Nutirtion_app/output\health_assessment_chart.png
+2025-08-03 22:29:31,375 - app_gui - INFO - Step 3: Generating AI content with LLM...
+2025-08-03 22:29:32,358 - llm_engine - ERROR - OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:32,358 - llm_engine - ERROR - Error generating summary_report: OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:33,291 - llm_engine - ERROR - OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:33,291 - llm_engine - ERROR - Error generating training_plan: OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:34,267 - llm_engine - ERROR - OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:34,268 - llm_engine - ERROR - Error generating nutrition_plan: OpenRouter API error: 401 - {"error":{"message":"No auth credentials found","code":401}}
+2025-08-03 22:29:34,303 - app_gui - INFO - Step 4: Generating Word documents...
+2025-08-03 22:29:34,343 - report_generator - INFO - Loaded template: summary_template.docx
+2025-08-03 22:29:34,399 - report_generator - INFO - Summary report generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Summary_Report_20250803_222934.docx
+2025-08-03 22:29:34,423 - report_generator - INFO - Loaded template: training_template.docx
+2025-08-03 22:29:34,447 - report_generator - INFO - Training plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Training_Plan_20250803_222934.docx
+2025-08-03 22:29:34,463 - report_generator - INFO - Loaded template: nutrition_template.docx
+2025-08-03 22:29:34,495 - report_generator - INFO - Nutrition plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Nutrition_Plan_20250803_222934.docx
+2025-08-03 22:29:34,495 - report_generator - INFO - All reports generated successfully
+2025-08-03 22:40:32,940 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 22:40:32,948 - __main__ - INFO - Starting GUI application
+2025-08-03 22:40:33,116 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 22:40:33,124 - app_gui - INFO - Output directory: output
+2025-08-03 22:40:33,124 - app_gui - INFO - Model type: openrouter
+2025-08-03 22:40:36,703 - app_gui - INFO - Model selection changed to: local
+2025-08-03 22:40:47,582 - app_gui - INFO - Testing AI connection...
+2025-08-03 22:40:47,582 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 22:40:47,590 - llm_engine - ERROR - Error generating test: Local model not initialized
+2025-08-03 22:40:47,590 - llm_engine - INFO - LLM connection test passed for local
+2025-08-03 22:40:50,823 - app_gui - INFO - Testing AI connection...
+2025-08-03 22:40:50,827 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 22:40:50,828 - llm_engine - ERROR - Error generating test: Local model not initialized
+2025-08-03 22:40:50,828 - llm_engine - INFO - LLM connection test passed for local
+2025-08-03 22:44:58,748 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 22:44:58,748 - __main__ - INFO - Starting GUI application
+2025-08-03 22:44:58,881 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 22:44:58,889 - app_gui - INFO - Output directory: output
+2025-08-03 22:44:58,889 - app_gui - INFO - Model type: openrouter
+2025-08-03 22:46:34,941 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 22:46:34,941 - __main__ - INFO - Starting GUI application
+2025-08-03 22:46:35,079 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 22:46:35,088 - app_gui - INFO - Output directory: output
+2025-08-03 22:46:35,088 - app_gui - INFO - Model type: openrouter
+2025-08-03 22:46:36,778 - app_gui - INFO - Model selection changed to: local
+2025-08-03 22:46:44,321 - app_gui - INFO - Selected PDF file: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 22:46:47,915 - app_gui - INFO - Output directory set to: C:/Users/PMLS/Projects/Nutirtion_app/output
+2025-08-03 22:46:52,892 - app_gui - INFO - Model selection changed to: local
+2025-08-03 22:46:55,501 - app_gui - INFO - Testing AI connection...
+2025-08-03 22:46:55,501 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 22:46:55,501 - llm_engine - ERROR - Error generating test: Local model not initialized
+2025-08-03 22:46:55,501 - llm_engine - INFO - LLM connection test passed for local
+2025-08-03 22:46:59,126 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 22:46:59,213 - app_gui - INFO - Step 1: Parsing PDF questionnaire...
+2025-08-03 22:46:59,213 - pdf_parser - INFO - Starting PDF parsing for: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 22:46:59,301 - pdf_parser - INFO - PDF parsing completed successfully
+2025-08-03 22:46:59,318 - app_gui - INFO - Step 2: Creating health assessment chart...
+2025-08-03 22:46:59,318 - chart_builder - INFO - Creating radar chart: Health & Fitness Assessment
+2025-08-03 22:46:59,763 - chart_builder - INFO - Radar chart saved to: C:/Users/PMLS/Projects/Nutirtion_app/output\health_assessment_chart.png
+2025-08-03 22:46:59,781 - app_gui - INFO - Step 3: Generating AI content with LLM...
+2025-08-03 22:46:59,781 - llm_engine - ERROR - Error generating summary_report: Local model not initialized
+2025-08-03 22:46:59,781 - llm_engine - ERROR - Error generating training_plan: Local model not initialized
+2025-08-03 22:46:59,781 - llm_engine - ERROR - Error generating nutrition_plan: Local model not initialized
+2025-08-03 22:46:59,789 - app_gui - INFO - Step 4: Generating Word documents...
+2025-08-03 22:46:59,814 - report_generator - INFO - Loaded template: summary_template.docx
+2025-08-03 22:46:59,882 - report_generator - INFO - Summary report generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Summary_Report_20250803_224659.docx
+2025-08-03 22:46:59,890 - report_generator - INFO - Loaded template: training_template.docx
+2025-08-03 22:46:59,914 - report_generator - INFO - Training plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Training_Plan_20250803_224659.docx
+2025-08-03 22:46:59,930 - report_generator - INFO - Loaded template: nutrition_template.docx
+2025-08-03 22:46:59,962 - report_generator - INFO - Nutrition plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Nutrition_Plan_20250803_224659.docx
+2025-08-03 22:46:59,962 - report_generator - INFO - All reports generated successfully
+2025-08-03 22:47:45,449 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 22:47:45,449 - __main__ - INFO - Starting GUI application
+2025-08-03 22:47:45,655 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 22:47:45,663 - app_gui - INFO - Output directory: output
+2025-08-03 22:47:45,671 - app_gui - INFO - Model type: openrouter
+2025-08-03 22:52:30,323 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 22:52:30,323 - __main__ - INFO - Starting GUI application
+2025-08-03 22:52:30,483 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 22:52:30,491 - app_gui - INFO - Output directory: output
+2025-08-03 22:52:30,491 - app_gui - INFO - Model type: openrouter
+2025-08-03 22:53:03,895 - app_gui - INFO - Selected PDF file: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 22:53:09,130 - app_gui - INFO - Output directory set to: C:/Users/PMLS/Projects/Nutirtion_app/output
+2025-08-03 22:53:10,432 - app_gui - INFO - Model selection changed to: local
+2025-08-03 22:53:12,975 - app_gui - INFO - Testing AI connection...
+2025-08-03 22:53:12,977 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 22:53:12,977 - llm_engine - ERROR - Error generating test: Local model not initialized
+2025-08-03 22:53:12,978 - llm_engine - INFO - LLM connection test passed for local
+2025-08-03 22:53:15,286 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 22:53:15,359 - app_gui - INFO - Step 1: Parsing PDF questionnaire...
+2025-08-03 22:53:15,360 - pdf_parser - INFO - Starting PDF parsing for: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 22:53:15,470 - pdf_parser - INFO - PDF parsing completed successfully
+2025-08-03 22:53:15,482 - app_gui - INFO - Step 2: Creating health assessment chart...
+2025-08-03 22:53:15,483 - chart_builder - INFO - Creating radar chart: Health & Fitness Assessment
+2025-08-03 22:53:15,867 - chart_builder - INFO - Radar chart saved to: C:/Users/PMLS/Projects/Nutirtion_app/output\health_assessment_chart.png
+2025-08-03 22:53:15,873 - app_gui - INFO - Step 3: Generating AI content with LLM...
+2025-08-03 22:53:15,873 - llm_engine - ERROR - Error generating summary_report: Local model not initialized
+2025-08-03 22:53:15,874 - llm_engine - ERROR - Error generating training_plan: Local model not initialized
+2025-08-03 22:53:15,874 - llm_engine - ERROR - Error generating nutrition_plan: Local model not initialized
+2025-08-03 22:53:15,880 - app_gui - INFO - Step 4: Generating Word documents...
+2025-08-03 22:53:15,968 - report_generator - INFO - Loaded template: summary_template.docx
+2025-08-03 22:53:16,023 - report_generator - INFO - Summary report generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Summary_Report_20250803_225316.docx
+2025-08-03 22:53:16,034 - report_generator - INFO - Loaded template: training_template.docx
+2025-08-03 22:53:16,058 - report_generator - INFO - Training plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Training_Plan_20250803_225316.docx
+2025-08-03 22:53:16,068 - report_generator - INFO - Loaded template: nutrition_template.docx
+2025-08-03 22:53:16,100 - report_generator - INFO - Nutrition plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Nutrition_Plan_20250803_225316.docx
+2025-08-03 22:53:16,100 - report_generator - INFO - All reports generated successfully
+2025-08-03 23:01:04,476 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 23:01:04,477 - __main__ - INFO - Starting GUI application
+2025-08-03 23:01:04,640 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 23:01:04,644 - app_gui - INFO - Output directory: output
+2025-08-03 23:01:04,647 - app_gui - INFO - Model type: openrouter
+2025-08-03 23:03:29,770 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 23:03:29,771 - __main__ - INFO - Starting GUI application
+2025-08-03 23:03:29,876 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 23:03:29,880 - app_gui - INFO - Output directory: output
+2025-08-03 23:03:29,882 - app_gui - INFO - Model type: openrouter
+2025-08-03 23:03:42,241 - app_gui - INFO - Model selection changed to: openrouter
+2025-08-03 23:03:42,947 - app_gui - INFO - Model selection changed to: openrouter
+2025-08-03 23:03:44,089 - app_gui - INFO - Model selection changed to: local
+2025-08-03 23:03:45,046 - app_gui - INFO - Model selection changed to: openrouter
+2025-08-03 23:03:45,763 - app_gui - INFO - Model selection changed to: local
+2025-08-03 23:05:48,438 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 23:05:48,439 - __main__ - INFO - Starting GUI application
+2025-08-03 23:05:48,548 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 23:05:48,552 - app_gui - INFO - Output directory: output
+2025-08-03 23:05:48,554 - app_gui - INFO - Model type: openrouter
+2025-08-03 23:07:01,587 - app_gui - INFO - Selected PDF file: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 23:07:05,894 - app_gui - INFO - Output directory set to: C:/Users/PMLS/Projects/Nutirtion_app/output
+2025-08-03 23:07:08,392 - app_gui - INFO - Model selection changed to: local
+2025-08-03 23:07:10,156 - app_gui - INFO - Testing AI connection...
+2025-08-03 23:07:10,156 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 23:07:10,156 - llm_engine - ERROR - Error generating test: Local model not initialized
+2025-08-03 23:07:10,156 - llm_engine - INFO - LLM connection test passed for local
+2025-08-03 23:07:12,687 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 23:07:12,704 - app_gui - INFO - Step 1: Parsing PDF questionnaire...
+2025-08-03 23:07:12,705 - pdf_parser - INFO - Starting PDF parsing for: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 23:07:12,800 - pdf_parser - INFO - PDF parsing completed successfully
+2025-08-03 23:07:12,809 - app_gui - INFO - Step 2: Creating health assessment chart...
+2025-08-03 23:07:12,809 - chart_builder - INFO - Creating radar chart: Health & Fitness Assessment
+2025-08-03 23:07:13,276 - chart_builder - INFO - Radar chart saved to: C:/Users/PMLS/Projects/Nutirtion_app/output\health_assessment_chart.png
+2025-08-03 23:07:13,286 - app_gui - INFO - Step 3: Generating AI content with LLM...
+2025-08-03 23:07:13,286 - llm_engine - ERROR - Error generating summary_report: Local model not initialized
+2025-08-03 23:07:13,287 - llm_engine - ERROR - Error generating training_plan: Local model not initialized
+2025-08-03 23:07:13,287 - llm_engine - ERROR - Error generating nutrition_plan: Local model not initialized
+2025-08-03 23:07:13,293 - app_gui - INFO - Step 4: Generating Word documents...
+2025-08-03 23:07:13,318 - report_generator - INFO - Loaded template: summary_template.docx
+2025-08-03 23:07:13,379 - report_generator - INFO - Summary report generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Summary_Report_20250803_230713.docx
+2025-08-03 23:07:13,394 - report_generator - INFO - Loaded template: training_template.docx
+2025-08-03 23:07:13,419 - report_generator - INFO - Training plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Training_Plan_20250803_230713.docx
+2025-08-03 23:07:13,431 - report_generator - INFO - Loaded template: nutrition_template.docx
+2025-08-03 23:07:13,468 - report_generator - INFO - Nutrition plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Nutrition_Plan_20250803_230713.docx
+2025-08-03 23:07:13,468 - report_generator - INFO - All reports generated successfully
+2025-08-03 23:08:30,467 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 23:08:30,469 - __main__ - INFO - Starting GUI application
+2025-08-03 23:08:30,606 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 23:08:30,609 - app_gui - INFO - Output directory: output
+2025-08-03 23:08:30,611 - app_gui - INFO - Model type: openrouter
+2025-08-03 23:08:37,239 - app_gui - INFO - Selected PDF file: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 23:08:41,568 - app_gui - INFO - Output directory set to: C:/Users/PMLS/Projects/Nutirtion_app/output
+2025-08-03 23:08:42,690 - app_gui - INFO - Model selection changed to: local
+2025-08-03 23:08:45,174 - app_gui - INFO - Testing AI connection...
+2025-08-03 23:08:45,175 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 23:08:45,175 - llm_engine - ERROR - Error generating test: Local model not initialized
+2025-08-03 23:08:45,175 - llm_engine - INFO - LLM connection test passed for local
+2025-08-03 23:08:48,506 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 23:08:48,523 - app_gui - INFO - Step 1: Parsing PDF questionnaire...
+2025-08-03 23:08:48,524 - pdf_parser - INFO - Starting PDF parsing for: C:/Users/PMLS/Projects/Nutirtion_app/inputs/form.pdf
+2025-08-03 23:08:48,614 - pdf_parser - INFO - PDF parsing completed successfully
+2025-08-03 23:08:48,631 - app_gui - INFO - Step 2: Creating health assessment chart...
+2025-08-03 23:08:48,634 - chart_builder - INFO - Creating radar chart: Health & Fitness Assessment
+2025-08-03 23:08:49,271 - chart_builder - INFO - Radar chart saved to: C:/Users/PMLS/Projects/Nutirtion_app/output\health_assessment_chart.png
+2025-08-03 23:08:49,292 - app_gui - INFO - Step 3: Generating AI content with LLM...
+2025-08-03 23:08:49,293 - llm_engine - ERROR - Error generating summary_report: Local model not initialized
+2025-08-03 23:08:49,293 - llm_engine - ERROR - Error generating training_plan: Local model not initialized
+2025-08-03 23:08:49,294 - llm_engine - ERROR - Error generating nutrition_plan: Local model not initialized
+2025-08-03 23:08:49,323 - app_gui - INFO - Step 4: Generating Word documents...
+2025-08-03 23:08:49,352 - report_generator - INFO - Loaded template: summary_template.docx
+2025-08-03 23:08:49,453 - report_generator - INFO - Summary report generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Summary_Report_20250803_230849.docx
+2025-08-03 23:08:49,469 - report_generator - INFO - Loaded template: training_template.docx
+2025-08-03 23:08:49,500 - report_generator - INFO - Training plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Training_Plan_20250803_230849.docx
+2025-08-03 23:08:49,515 - report_generator - INFO - Loaded template: nutrition_template.docx
+2025-08-03 23:08:49,572 - report_generator - INFO - Nutrition plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Nutrition_Plan_20250803_230849.docx
+2025-08-03 23:08:49,572 - report_generator - INFO - All reports generated successfully
+2025-08-03 23:18:26,606 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 23:18:26,606 - __main__ - INFO - Starting GUI application
+2025-08-03 23:18:26,708 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 23:18:26,711 - app_gui - INFO - Output directory: output
+2025-08-03 23:18:26,713 - app_gui - INFO - Model type: openrouter
+2025-08-03 23:18:37,630 - app_gui - INFO - Selected PDF file: C:/Users/PMLS/Projects/Nutirtion_app/inputs/Smaple_input.pdf
+2025-08-03 23:18:41,346 - app_gui - INFO - Output directory set to: C:/Users/PMLS/Projects/Nutirtion_app/output
+2025-08-03 23:18:43,059 - app_gui - INFO - Model selection changed to: local
+2025-08-03 23:18:44,954 - llm_engine - WARNING - Local model not found at: models/ggml-gpt4all-j-v1.3-groovy.bin
+2025-08-03 23:18:44,964 - app_gui - INFO - Step 1: Parsing PDF questionnaire...
+2025-08-03 23:18:44,964 - pdf_parser - INFO - Starting PDF parsing for: C:/Users/PMLS/Projects/Nutirtion_app/inputs/Smaple_input.pdf
+2025-08-03 23:18:44,992 - pdf_parser - INFO - PDF parsing completed successfully
+2025-08-03 23:18:45,016 - app_gui - INFO - Step 2: Creating health assessment chart...
+2025-08-03 23:18:45,016 - chart_builder - INFO - Creating radar chart: Health & Fitness Assessment
+2025-08-03 23:18:45,334 - chart_builder - INFO - Radar chart saved to: C:/Users/PMLS/Projects/Nutirtion_app/output\health_assessment_chart.png
+2025-08-03 23:18:45,343 - app_gui - INFO - Step 3: Generating AI content with LLM...
+2025-08-03 23:18:45,343 - llm_engine - ERROR - Error generating summary_report: Local model not initialized
+2025-08-03 23:18:45,343 - llm_engine - ERROR - Error generating training_plan: Local model not initialized
+2025-08-03 23:18:45,344 - llm_engine - ERROR - Error generating nutrition_plan: Local model not initialized
+2025-08-03 23:18:45,351 - app_gui - INFO - Step 4: Generating Word documents...
+2025-08-03 23:18:45,363 - report_generator - INFO - Loaded template: summary_template.docx
+2025-08-03 23:18:45,410 - report_generator - INFO - Summary report generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Summary_Report_20250803_231845.docx
+2025-08-03 23:18:45,419 - report_generator - INFO - Loaded template: training_template.docx
+2025-08-03 23:18:45,441 - report_generator - INFO - Training plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Training_Plan_20250803_231845.docx
+2025-08-03 23:18:45,450 - report_generator - INFO - Loaded template: nutrition_template.docx
+2025-08-03 23:18:45,481 - report_generator - INFO - Nutrition plan generated: C:/Users/PMLS/Projects/Nutirtion_app/output\Nutrition_Plan_20250803_231845.docx
+2025-08-03 23:18:45,481 - report_generator - INFO - All reports generated successfully
+2025-08-03 23:24:49,498 - __main__ - INFO - Initializing Nutrition & Training Plan Generator
+2025-08-03 23:24:49,499 - __main__ - INFO - Starting GUI application
+2025-08-03 23:24:49,971 - app_gui - INFO - Nutrition & Training Plan Generator started
+2025-08-03 23:24:49,975 - app_gui - INFO - Output directory: output
+2025-08-03 23:24:49,977 - app_gui - INFO - Model type: openrouter

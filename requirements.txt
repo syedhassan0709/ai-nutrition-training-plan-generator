@@ -1,0 +1,11 @@
+# Core dependencies - pip will automatically choose compatible versions
+PyMuPDF
+python-docx
+matplotlib
+numpy
+requests
+Pillow
+pyinstaller
+# Optional packages (comment out if causing issues)
+gpt4all
+openai
